@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --max-width: 1200px;
+  --padding: 2rem;
+  --c-primary: #358cc1;
+  --c-primary-dark: #286d97;
+  --c-pink: #a139f5;
+  --c-secondary: #808080;
+  --c-third: #f3f3f3;
+  --transition-duration: 0.4s;
+  --nav-width: 350px;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+
+.nav-width {
+  width: var(--nav-width);
+}
+
